@@ -1,1 +1,38 @@
- 
+*{
+    box-sizing: border-box;
+  }
+  body{
+    background-color: rgb(226, 140, 42);
+  }
+  img{
+    width: 50%;
+    margin: auto;
+    border: 5px double black ;
+    display: block;
+  }
+  h1,h2 {
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+  }
+  #quote{
+    font-size: 15px;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center
+  }
+  span{
+    font-weight: bold;
+  }
+footer{
+  margin-top: 50px;
+}   
+
+.micontenedor{
+    display: flex;
+    flex-direction:column-reverse;
+}
+.rectangle{
+    display: flex;
+    justify-content: flex-end;
+}
