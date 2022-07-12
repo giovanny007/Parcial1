@@ -66,15 +66,15 @@
   function PokemonAtrapalosYa(e) {
     e.preventDefault()
   
-    document.getElementById("nombre_poke1").value = pikachu.Nombre
-    document.getElementById("especie_poke1").value = pikachu.Especie
-    document.getElementById("ataque_poke1").value = pikachu.Ataque
-    document.getElementById("defensa_poke1").value = pikachu.Defensa
+    document.getElementById("nombre_poke1").value = snorlax.Nombre
+    document.getElementById("especie_poke1").value = snorlax.Especie
+    document.getElementById("ataque_poke1").value = snorlax.Ataque
+    document.getElementById("defensa_poke1").value = snorlax.Defensa
     
-    document.getElementById("nombre_poke2").value = charmander.Nombre
-    document.getElementById("especie_poke2").value = charmander.Especie
-    document.getElementById("ataque_poke2").value = charmander.Ataque
-    document.getElementById("defensa_poke2").value = charmander.Defensa
+    document.getElementById("nombre_poke2").value = meowth.Nombre
+    document.getElementById("especie_poke2").value = meowth.Especie
+    document.getElementById("ataque_poke2").value = meowth.Ataque
+    document.getElementById("defensa_poke2").value = meowth.Defensa
   }
   
   function Pokemon(Nombre, Especie, Ataque, Defensa) {
@@ -84,5 +84,5 @@
     this.Defensa = Defensa
   }
   
-  let pikachu = new Pokemon("Snorlax", "Normal", 143, 41)
-  let charmander = new Pokemon("Charmander", "Normal", 45, 31)
+  let snorlax = new Pokemon("Snorlax", "Normal", 143, 41)
+  let meowth = new Pokemon("Meowth", "Normal", 45, 31)
